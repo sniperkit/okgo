@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2016 Palantir Technologies, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,10 +31,10 @@ import (
 	"github.com/spf13/pflag"
 	"gopkg.in/yaml.v2"
 
-	"github.com/palantir/okgo/checker"
-	"github.com/palantir/okgo/checker/checkerfactory"
-	"github.com/palantir/okgo/okgo"
-	"github.com/palantir/okgo/okgo/config"
+	"github.com/sniperkit/snk.fork.palantir-okgo/checker"
+	"github.com/sniperkit/snk.fork.palantir-okgo/checker/checkerfactory"
+	"github.com/sniperkit/snk.fork.palantir-okgo/okgo"
+	"github.com/sniperkit/snk.fork.palantir-okgo/okgo/config"
 )
 
 var (
